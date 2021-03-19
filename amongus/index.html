@@ -41,7 +41,7 @@
 </head>
 <body>
     <h1>Among Us</h1>
-    <p>Version: 2020.12.9</p>
+    <p>Version: Last</p>
     <br>
     <a id="download" href="#">Download here!</a>
     <noscript>Warning: Turn on JavaScript first!</noscript>
@@ -49,7 +49,7 @@
         var userAgent = navigator.userAgent || navigator.vendor || window.opera;
         var download = document.getElementById('download');
         if (/android/i.test(userAgent)) {
-            download.setAttribute('href', 'https://play.google.com/store/apps/details?id=com.innersloth.spacemafia');
+            download.setAttribute('href', 'https://store.steampowered.com/app/945360/Among_Us/');
         } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
             download.setAttribute('href', 'https://apps.apple.com/app/among-us/id1351168404');
         } else {
