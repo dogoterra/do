@@ -49,11 +49,11 @@
         var userAgent = navigator.userAgent || navigator.vendor || window.opera;
         var download = document.getElementById('download');
         if (/android/i.test(userAgent)) {
-            download.setAttribute('href', 'https://store.steampowered.com/app/945360/Among_Us/');
+            download.setAttribute('href', 'https://play.google.com/store/apps/details?id=com.innersloth.spacemafia');
         } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
             download.setAttribute('href', 'https://apps.apple.com/app/among-us/id1351168404');
         } else {
-            download.setAttribute('href', 'https://drive.google.com/u/0/uc?id=1kdqpcr_t1EFyPcAN8HkJpi4Bpzl2bOAd&export=download');
+            download.setAttribute('href', 'https://store.steampowered.com/app/945360/Among_Us/');
         }
     </script>
     <div id="info">
