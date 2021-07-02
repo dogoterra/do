@@ -3,4 +3,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const mail = atob("ZG9nb0Bkb3NvLmVz");
     
     infoBox.innerText = `More Info: ${mail}`;
-})
+});
